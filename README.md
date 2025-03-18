@@ -16,6 +16,9 @@ This is my repo for STATS 220.
 3. Burgerfuel 2024 - present *Shift Manager*
 
 
-A meme that captures how I currently feel about my university studies is ![](https://media.tenor.com/grsddPTkAxoAAAA1/beach-ocean.webp/tenor.gif)
+
+
+
+A meme that captures how I currently feel is ![](https://media.tenor.com/KwYowB-R_74AAAA1/alijah-martin-florida.webp/tenor.gif)
 
 
