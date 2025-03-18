@@ -16,5 +16,6 @@ This is my repo for STATS 220.
 3. Burgerfuel 2024 - present *Shift Manager*
 
 
-A meme that captures how I currently feel about my university studies is ![](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
+A meme that captures how I currently feel about my university studies is ![](https://giphy.com/gifs/ballislife-wM9M8vRV9O34bXG9pl/giphy.gif)
+
 
