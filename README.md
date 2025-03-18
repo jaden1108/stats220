@@ -16,4 +16,4 @@ This is my repo for STATS 220.
 3. Burgerfuel 2024 - present *Shift Manager*
 
 
-A meme that captures how I currently feel about my university studies is ![](https://tenor.com/dRa9TgbY9v0.gif)
+A meme that captures how I currently feel about my university studies is ![](<div class="tenor-gif-embed" data-postid="3100210199119658942" data-share-method="host" data-aspect-ratio="0.566265" data-width="100%"><a href="https://tenor.com/view/alijah-martin-florida-florida-gators-gators-florida-basketball-gif-3100210199119658942">Alijah Martin Florida GIF</a>from <a href="https://tenor.com/search/alijah+martin-gifs">Alijah Martin GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>)
