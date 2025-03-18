@@ -8,7 +8,7 @@ This is my repo for STATS 220.
 - I am undertaking a degree in Statistics
 - I am taking STATS 220 because I want to learn more about rcode.
 - I am interested in Basketball, A big fan of NBA.
-- My favourite burger place is **Carl's Jr**. [](https://www.carlsjr.co.nz/).
+- My favourite burger place is **Carl's Jr**. [MainPage](https://www.carlsjr.co.nz/).
 
 ## Experience
 1. Mcdonalds January 2022 - June 2022
