@@ -1,0 +1,35 @@
+---
+title: My dynamic report
+output: html_fragment
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
+
+```
+
+```{css}
+
+```
+
+## Aucklander's Fruit Consumption Preferences
+
+This report presents a dynamic analysis of survey data collected on fruit purchasing and consumption habits in Auckland. The survey includes responses about how often participants buy fruit, how much they are willing to spend, their favourite fruits, and their perception of fruit prices.
+
+The dataset was collected via an online Google Form and reflects opinions and behaviours from a range of respondents.
+
+
+```{r}
+
+ggplot(latest_data, aes(x = buy_freq)) +
+  geom_bar(fill = "steelblue") +
+  labs(title = "Frequency of Buying Fruit", x = "Frequency", y = "Number of Respondents") +
+  theme_minimal()
+
+ggplot(latest_data, aes(x = fav_fruit)) +
+  geom_bar(fill = "darkorange") +
+  labs(title = "Favourite Fruit Choices", x = "Fruit", y = "Number of Respondents") +
+  theme_minimal()
+
+```
+
