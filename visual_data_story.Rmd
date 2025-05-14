@@ -1,0 +1,109 @@
+---
+title: My visual data story
+output: html_document
+---
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
+```
+
+```{js}
+$(function() {
+  $(".level2").css('visibility', 'hidden');
+  $(".level2").first().css('visibility', 'visible');
+  $(".container-fluid").height($(".container-fluid").height() + 300);
+  $(window).on('scroll', function() {
+    $('h2').each(function() {
+      var h2Top = $(this).offset().top - $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (h2Top >= 0 && h2Top <= windowHeight / 2) {
+        $(this).parent('div').css('visibility', 'visible');
+      } else if (h2Top > windowHeight / 2) {
+        $(this).parent('div').css('visibility', 'hidden');
+      }
+    });
+  });
+})
+```
+
+```{css}
+body {
+  background-color: #ffffff; 
+  color: #000000; 
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin: 2em;
+}
+
+h1, h2, h3, h4 {
+  color: #FFDAB9; 
+}
+
+a {
+  color: #FFBB77;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.plot-caption, .caption {
+  font-style: italic;
+  color: #FFE5B4;
+}
+
+code {
+  background-color: #FFEFD5;
+  color: #8B4000;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+pre {
+  background-color: #FFE5B4;
+  color: #000000;
+  padding: 1em;
+  overflow-x: auto;
+  border-radius: 6px;
+}
+
+```
+
+## Observing Phone Usage on the Train from Britomart to Papakura
+For this project, I collaborated with my friend Wei and my flatmate Manson to collect observational data on how people use their phones while commuting. We travelled together on the Auckland train line from Britomart Station to Papakura Station, which allowed us to observe a wide range of passengers across different age groups.
+
+
+## Average Duration by Activity
+
+![Average duration](plot1.png)
+People spent different amounts of time on their phones depending on the type of activity. According to the plot above, **listening to music** had the **highest average durations**, suggesting these activities tend to be more passive and continuous. In contrast, messaging or short interactions like browsing social media involved shorter phone sessions.
+
+## Audible vs Silent Use Across Activities
+
+![Audible usage](plot2.png)
+
+In this plot, we focus on activities that are more likely to involve sound — such as listening to music, watching videos, playing games, or making phone calls.
+
+We can clearly see that:
+- **Music** and **videos** are always silent, with passengers using headphones.
+- **Games** and **Phone calls** had a mix of silent and audible use.
+
+
+
+## What Time Were Observations Made?
+
+![Observation time](plot3.png)
+
+Using the timestamp recorded in our Google Form, we visualised the distribution of observation times by hour.
+
+Most observations took place around **12:00 pm**, which reflects the specific time when we were riding the train. While this doesn’t represent all time periods, it provides context for interpreting the behaviours observed — these patterns may differ during peak commuting hours or late evenings.
+
+
+## Conclusion
+
+This observational project helped us better understand mobile phone habits in a public setting. By visualising the data, we noticed clear patterns in how people interact with their devices depending on the activity, noise level, and length of use.
+If extended, the project could include more time intervals, different train lines, or comparisons across weekdays vs weekends to gain deeper insights.
+
